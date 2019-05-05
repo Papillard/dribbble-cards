@@ -1,0 +1,47 @@
+/* TODO: design Dribbble card */
+.card {
+  width: 250px;
+  margin: 16px 0px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 16px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+}
+
+.card-white .btn-white {
+  opacity: 0;
+}
+
+.card-white:hover .btn-white {
+  opacity: 1;
+}
+
+.card-white .list-inline {
+  text-align: right;
+  color: grey;
+  padding-top: 16px;
+}
+
+.card-background {
+  background-image: url(https://source.unsplash.com/random);
+  height: 150px;
+  background-size: cover;
+  padding: 16px;
+}
+.card-user img {
+  width: 32px;
+  border-radius: 50%;
+}
+
+.card-user {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+}
+.card-user a {
+  padding-left: 8px;
+}
+
